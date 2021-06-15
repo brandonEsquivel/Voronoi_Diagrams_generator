@@ -9,16 +9,28 @@ Se deben instalar todas sus dependencias para correrlo sin problemas.
 
 # Dependencies
 cmake
+
 build-essential
+
+gtest
+
 sdl2
-Se dispone de instalación automática ejecutando config.sh
-sudo apt-get install -y libsdl2*;
-sudo apt-get install -y guile-2.0;
-sudo apt-get install -y freetype2-demos;
-sudo apt-get install -y fonts-dejavu;
-sudo apt-get install -y fonts-freefont-ttf;
-sudo apt-get install -y ttf-bitstream-vera;
-sudo apt-get install -y fonts-fre;
+
+Se dispone de instalación automática ejecutando config.sh, este script realiza las siguientes instalaciones:
+
+`sudo apt-get install -y libsdl2*`
+
+`sudo apt-get install -y guile-2.0`
+
+`sudo apt-get install -y freetype2-demos`
+
+`sudo apt-get install -y fonts-dejavu`
+
+`sudo apt-get install -y fonts-freefont-ttf`
+
+`sudo apt-get install -y ttf-bitstream-vera`
+
+`sudo apt-get install -y fonts-fre`
 
 # How to run
 Entrar a la carpeta Lab_Progra_Project_1
@@ -29,7 +41,9 @@ Instalar las dependencias y correr el cmake con el comando
 Para ello se ejecuta el archivo config.sh
 
 La ejecucion del config.sh lo llevara al directorio build, una vez ahi ejecutar el siguiente comando
+
 `./voronoi ../data/nombre_archivo.txt > prueba.pnm`
+
 Recordar que el archivo.txt debe estar en la carpeta data
 
 # Sobre la compilacion
